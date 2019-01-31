@@ -1,0 +1,26 @@
+Caleb Kinmon (UNI: cgk2128)
+RLESequenceV3 Test Results 
+Tests 1 - 14 (in order)
+
+The test results here look different than those from V1 and V2 because
+V3 never uncompresses the sequence after the initial compression.
+
+[255]
+[255]
+[1  2  3  4  5]
+[1  2  3  4  6  5]
+[5  2  3  4  6  5]
+6
+3
+Equal
+Not equal
+[1  5  2  3  4  6  5]
+[1  5  2  3  4  6  5  7]
+[]
+[]
+[0, 4, 5]
+[3, 1, 1]
+[0, 0, 0, 4, 5]
+[255]
+[0  1  2  3  4  5  6  7  8  9]
+[0  1  2  3  4  5  6  7  8  9  255]
